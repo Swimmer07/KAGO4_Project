@@ -39,22 +39,73 @@ public class ProgramController {
         // Ball ball = new Ball();
         // viewController.draw(ball1);
 
-        House house = new House();
-        viewController.draw(house);
+        Hintergrund hintergrund = new Hintergrund();
+        viewController.draw(hintergrund);
 
-        Sun sun = new Sun();
+        House h1 = new House(200, 200);
+        viewController.draw(h1);
+
+        House h2 = new House(270,200);
+        viewController.draw(h2);
+
+        House h3 = new House(340,200);
+        viewController.draw(h3);
+
+        House h4 = new House(410,200);
+        viewController.draw(h4);
+
+        House h5 = new House(480,200);
+        viewController.draw(h5);
+
+        Sun sun = new Sun(400,110);
         viewController.draw(sun);
 
-        Tree tree = new Tree();
-        viewController.draw(tree);
+        Tree t1 = new Tree(400,280,2);
+        viewController.draw(t1);
 
-        Cloud cloud = new Cloud(70,90);
-        viewController.draw(cloud);
+        Tree t2 = new Tree(300,280,2);
+        viewController.draw(t2);
 
-        Fence fence = new Fence();
-        viewController.draw(fence);
+        Tree t3 = new Tree(500,280,2);
+        viewController.draw(t3);
 
-        Car car = new Car();
+        Tree t4 = new Tree(50,280,2);
+        viewController.draw(t4);
+
+        Tree t5 = new Tree(100,280,2);
+        viewController.draw(t5);
+
+        Cloud c1 = new Cloud(70,90,20);
+        viewController.draw(c1);
+
+        Cloud c2 = new Cloud(170,90,20);
+        viewController.draw(c2);
+
+        Cloud c3 = new Cloud(270,90,20);
+        viewController.draw(c3);
+
+        Cloud c4 = new Cloud(370,90,20);
+        viewController.draw(c4);
+
+        Cloud c5 = new Cloud(470,90,20);
+        viewController.draw(c5);
+
+        Fence f1 = new Fence(150,290);
+        viewController.draw(f1);
+
+        Fence f2 = new Fence(160,290);
+        viewController.draw(f2);
+
+        Fence f3 = new Fence(170,290);
+        viewController.draw(f3);
+
+        Fence f4 = new Fence(180,290);
+        viewController.draw(f4);
+
+        Fence f5 = new Fence(190,290);
+        viewController.draw(f5);
+
+        Car car = new Car(450,280);
         viewController.draw(car);
 
     }
