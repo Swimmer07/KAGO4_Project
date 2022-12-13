@@ -48,8 +48,14 @@ public class ProgramController {
         Tree tree = new Tree();
         viewController.draw(tree);
 
-        Cloud cloud = new Cloud();
+        Cloud cloud = new Cloud(70,90);
         viewController.draw(cloud);
+
+        Fence fence = new Fence();
+        viewController.draw(fence);
+
+        Car car = new Car();
+        viewController.draw(car);
 
     }
 
