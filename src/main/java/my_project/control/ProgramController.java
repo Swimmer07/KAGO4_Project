@@ -105,8 +105,11 @@ public class ProgramController {
         Fence f5 = new Fence(190,290);
         viewController.draw(f5);
 
-        Car car = new Car(450,280);
-        viewController.draw(car);
+        Car q1 = new Car(450,280);
+        viewController.draw(q1);
+
+        Car q2 = new Car(65,280);
+        viewController.draw(q2);
 
     }
 
